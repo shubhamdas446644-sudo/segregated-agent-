@@ -1,3 +1,6 @@
+import os
+# Auto-install Playwright browsers on Streamlit Cloud
+os.system("playwright install chromium")
 import streamlit as st
 import asyncio
 from playwright.async_api import async_playwright
